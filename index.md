@@ -1,12 +1,9 @@
 ---
 layout: page
-title: zdwchang
-tagline: Ride My Phaedrus
+title: 高等数学题库
+tagline: 
 ---
 <ul>
-<h3>
-<a href="http://github.zdwchang.com" target="_blank">My GitHub</a>
-</h3>
 <br>
 {% for post in site.posts %}
 <b>{{ post.date | date_to_long_string }}</b>
